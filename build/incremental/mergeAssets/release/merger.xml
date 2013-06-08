@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/src/main/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/src/release/assets" />
+    </dataSet>
+
+</merger>

@@ -1,0 +1,17 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1370667816000 313 eb79f0a76031e0955f7ca2ea7ae9b9d09fc11c95 /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/layout/list_vers.xml
+1370665587000 1160 cb782bd83a9e04741053db9aeb000a22f53af17e /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/layout/list_item.xml
+1370729574000 13366 59205dbfe6b49d13d41f9f6e4ff46fce4f4be91d /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/xml/du_changelog.xml
+1370665587000 125 fae9d1b71d520745438010c9ca7cde9c81dfefac /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/values-sw720dp-land/values.xml
+1370665587000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/menu/main.xml
+1370665587000 634 c894d9352c3f223157badc44b69c901403eb31b4 /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/layout/activity_main.xml
+1370665587000 796 369fc25905008e58f58fd67402125201c0f58140 /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/values/values.xml
+1370728918000 521 06de230f3ffd6a249753bbcfd46d1d33f80456b9 /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/layout/fragment_change_list.xml
+1370727297000 7696 01573b9a8c3d4e49227b8c6d13fcd0f69def53d3 /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/drawable-hdpi/ic_launcher.png
+1370665587000 203 19aedb7cdc3386344e36087b035a0a6b2b91d4cd /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/values-v11/values.xml
+1370727297000 11419 e5687d7142a43510615ce72d1e827a096823a905 /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/drawable-xhdpi/ic_launcher.png
+1370727297000 22149 0df113ae7f72ebabaa8cd0af5e6b07c873ced3b7 /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/drawable-xxhdpi/ic_launcher.png
+1370665587000 217 f02e000d05a079992d2dba18039216c1e6b8784f /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/values-v14/values.xml
+1370727297000 4341 6958a605a1b0c830339c5753081c97532d2cfa75 /home/mazwoz/JB/DirtyUnicorns/packages/apps/duchangelog/DirtyUnicornsChangelog/build/res/all/release/drawable-mdpi/ic_launcher.png
