@@ -17,7 +17,7 @@ public class ChangeList extends FragmentActivity {
         if(extras != null)
         {
             VerChanges = extras.getString("changes");
-            setTitle("Change " + extras.getString("title"));
+            setTitle("Changelog for " + extras.getString("title"));
             TextView tv = (TextView) findViewById(R.id.changes);
             tv.setMovementMethod(new ScrollingMovementMethod());
             tv.setText(VerChanges);
