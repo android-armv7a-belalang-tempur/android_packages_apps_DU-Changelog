@@ -1,0 +1,42 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<Versions>
+    <ver id="1.0" Change=" - Initial Release"/>
+    <ver id="1.1.0" Change=" - SystemUI: fix recents minimization animation\n
+- Added HDPI images for Dark/Dirty and updated some other images\n
+- Status bar Auto-Hide\n
+- Quick Settings: Swipe to switch\n
+- Fixed Dark and Dirty will no longer restart UI\n
+- Quick Emoji working with dark and dirty turned on"/>
+    <ver id="1.1.1" Change=" - Hide GooManager from app drawer\n
+- Add Check for updates to about DU"/>
+    <ver id="2.0" Change=" - Added Hybrid Engine\n
+- Added Permissions management\n
+- Added StayAwake Toggle\n
+- Added .75x animation scale\n
+- Rearranged Settings tabs and changed icons\n
+- Removed LCD Density and Xposed stuff"/>
+    <ver id="2.2" Change=" - Added StayAwake, Expanded Desktop and WirelessADB toggles\n
+- Fixed annoying ringtone bug\n
+- List rejected calls separately\n
+- Added Speedometer battery\n
+- Added more Statusbar clock options\n
+- Added App Sidebar from ChaOS\n
+- Fixed SystemUI FC's\n
+- Fixed PIE alignment issue\n
+- Fixed tablet UI battery issues\n
+- Fixed profiles power menu bug\n
+- Fixed issue with not being able to add APN's\n
+- Removed conflicting mods, will add once issues are fixed\n
+- Removed themed system icons\n
+- Added Google's new drawer UI to multiple system apps\n
+- Added AOKP Ribbons\n
+- Added power off on lockscreen mod\n
+- Added ChaOS Launcher (removed Holo Launcher HD)\n
+- Added new Theme Engine (BAMF)\n
+- Added back Navigation Ring\n
+- Added Lockscreen tint color mod\n
+- Added 8 lockscreen targets\n
+- Added Moar clock options\n
+- Added Jackpal Terminal / CM sound recorder\n
+- Updated Dark and Dirty"/>
+</Versions>

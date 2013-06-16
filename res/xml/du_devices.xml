@@ -1,0 +1,21 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<Versions>
+
+    <Device id="EVO 3D (CDMA)" CodeName="shooter"/>
+
+    <Device id="EVO 4G LTE" CodeName="jewel"/>
+
+    <Device id="GNEX (maguro)" CodeName="maguro"/>
+
+    <Device id="GNEX (toro)" CodeName="toro"/>
+
+    <Device id="GNEX (toroplus)" CodeName="toroplus"/>
+
+    <Device id="Nexus 4" CodeName="mako"/>
+
+    <Device id="HTC One" CodeName="m7"/>
+
+    <Device id="Note II (Sprint)" CodeName="l900"/>
+
+    <Device id="Droid Razr" CodeName="spyder"/>
+</Versions>

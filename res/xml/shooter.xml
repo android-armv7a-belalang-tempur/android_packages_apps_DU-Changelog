@@ -1,11 +1,7 @@
 <!--?xml version="1.0" encoding="utf-8"?-->
 <Versions>
-
-    <ver id="EVO 3D (CDMA)" Change=" - Initial Release\n
-\n
-\n
-v1.1\n
-- USB Connect issue fix\n
+    <ver id="1.0" Change=" - Initial Release"/>
+    <ver id="1.1" Change=" - USB Connect issue fix\n
 - Added in apps from CM such as Apollo, cLock, etc\n
 - Removed AOKP stats\n
 - Battery improvement and performance tweaks\n
@@ -26,11 +22,8 @@ v1.1\n
 - Changed bootanimation (Thanks iBlowpot)\n
 - Added Team D.I.R.T to 'Show Your Support' tab in RC\n
 - Enable toggles/widgets w/o having to flash GAPPS\n
-- Updated hosts file for ad-free experience\n
-\n
-\n
-v1.2\n
-- Removed Nova Launcher\n
+- Updated hosts file for ad-free experience\n"/>
+    <ver id="1.2" Change = " - Removed Nova Launcher\n
 - Added Roman Nurik's Dash Clock\n
 - Added ability to toggle CRT screen on/off\n
 - Added AOKP's new/old toggles\n
@@ -50,11 +43,8 @@ v1.2\n
 - Remove chipset tag in hardware info\n
 - Fixed roaming indicator issue\n
 - Added Support tab in settings\n
-- Added two themes built from source\n
-\n
-\n
-v1.3\n
-- Removed Trebuchet launcher\n
+- Added two themes built from source"/>
+    <ver id="1.3" Change=" - Removed Trebuchet launcher\n
 - Removed Launcher2\n
 - Removed extra languages in system apps\n
 - Removed Hardware keys in Dirt Settings\n
@@ -81,11 +71,8 @@ v1.3\n
 - Fixed APN issue\n
 - Fixed USB disconnect issue\n
 - Fixed hardware back to kill feature\n
-- Fixed SystemUI FC present in v1.2 caused by volume control\n
-\n
-\n
-v1.4\n
-- Fixed USB tethering\n
+- Fixed SystemUI FC present in v1.2 caused by volume control"/>
+    <ver id="1.4" Change=" - Fixed USB tethering\n
 - Fixed Camcorder not recording\n
 - Fixed bluetooth issue\n
 - Fixed DSPManager not working\n
@@ -93,11 +80,8 @@ v1.4\n
 - Added PIE\n
 - Added notification icon opacity\n
 - Fixed several typos throughout the ROM\n
-- Reverted back to Evervolv kernel\n
-\n
-\n
-v1.5\n
-- Fixed Wimax\n
+- Reverted back to Evervolv kernel"/>
+    <ver id="1.5" Change=" - Fixed Wimax\n
 - Removed Performance Control\n
 - Added CM's performance under Dirt Settings\n
 - Added Xposed Settings\n
@@ -110,11 +94,8 @@ v1.5\n
 - Made changes to updater-script\n
 - OCD kicked in and made more string changes\n
 - Removed SwagPapers, UnicornPorn, etc.\n
-- Added in Dirt Papers\n
-\n
-\n
-1.5.1\n
-- Allow theming of lockscreen\n
+- Added in Dirt Papers"/>
+    <ver id="1.5.1" Change=" - Allow theming of lockscreen\n
 - PIE updates\n
 - Fix Tablet layout\n
 - Added CM skinny Battery\n
@@ -122,11 +103,8 @@ v1.5\n
 - Added Screenshot delay option in RC\n
 - Added CM's built-in Changelog\n
 - Resized icons (HDPI and XHDPI)\n
-- Removed Nav Ring in RC\n
-\n
-\n
-v1.6\n
-- CM Profiles added in\n
+- Removed Nav Ring in RC"/>
+    <ver id="1.6" Change=" - CM Profiles added in\n
 - LCD Density Control in Dirt Settings\n
 - Added a 'Share' preference in About DU\n
 - Optimized ALL OGG audio files\n
@@ -136,11 +114,8 @@ v1.6\n
 - Added scrollable AOKP toggles\n
 - Added more AOKP devs to 'About AOKP'\n
 - Removed modified ad-free hosts file\n
-- Removed Screenshot toggle\n
-\n
-\n
-v1.7\n
-- Have DashClock hide lockscreen clock\n
+- Removed Screenshot toggle"/>
+    <ver id="1.7" Change=" - Have DashClock hide lockscreen clock\n
 - Increased PIE speed\n
 - Don't clear wallpaper when SystemUI restarts\n
 - Fix opacity of LastApp Icon \n
@@ -154,11 +129,8 @@ v1.7\n
 - Show more apps (15) in battery statistics\n
 - Moved profiles up and removed toggle tab\n
 - Fixed cLock yahoo API issue\n
-- Added build.prop tweaks to Dirt Settings\n
-\n
-\n
-v1.7.1\n
-- Added 15 more batteries\n
+- Added build.prop tweaks to Dirt Settings"/>
+    <ver id="1.7.1" Change=" - Added 15 more batteries\n
 - Merged latest from CM for Apollo\n
 - Merged latest from CM for CMFileManager\n
 - Merged latest from TUN_SD for JellyBlack theme\n
@@ -167,18 +139,12 @@ v1.7.1\n
 - Fixed Visibility of Action Bar Text\n
 - Fixed audio routing issues with VOIP calls\n
 - Fixed increasing volume checkbox layout\n
-- Fixed scene mode breakage caused by soft-hdr feature\n
-\n
-\n
-v1.7.2\n
-- Added Breathing missed call\n
+- Fixed scene mode breakage caused by soft-hdr feature"/>
+    <ver id="1.7.2" Change=" - Added Breathing missed call\n
 - Added SlimRoms' TRDS built in theme\n
 - Added Dark Dirty Toggle\n
-- Removed JellyBlack and SnapBlack\n
-\n
-\n
-v1.8\n
-- Enable SoftBank emoji encoding \n
+- Removed JellyBlack and SnapBlack"/>
+    <ver id="1.8" Change=" - Enable SoftBank emoji encoding \n
 - Added hide/show avatar feature \n
 - ForwardPort Direct Call Feature \n
 - SMS/MMS Mark all as Read option \n
@@ -202,11 +168,8 @@ v1.8\n
 - Applied OpenPDroid patches for use of PDroidManager\n
 - Added Volume Toggle\n
 - Added CM SoundRecorder\n
-- Fixed Photosphere/Camera FCs\n
-\n
-\n
-v1.9\n
-- Added Hardware keys remap mod\n
+- Fixed Photosphere/Camera FCs"/>
+    <ver id="1.9" Change=" - Added Hardware keys remap mod\n
 - Status bar Auto-Hide\n
 - GB style recents option\n
 - Swipe to switch Quick Settings\n
@@ -216,40 +179,28 @@ v1.9\n
 - Replaced system icons based off Sketchy Icons\n
 - Added more pngs for Dark and Dirty and resized a few\n
 - Optimized SystemUI images with pngcrush\n
-- Removed app drawer icons for Xposed Installer/Framework\n
-\n
-\n
-v1.9.1
-- Disabled reset of SystemUI when enabling Dark and Dirty\n
+- Removed app drawer icons for Xposed Installer/Framework"/>
+    <ver id="1.9.1" Change=" - Disabled reset of SystemUI when enabling Dark and Dirty\n
 - Added quick emoji button next to text input\n
 - Reverted all OpenPDroid patches (see note #2)\n
 - Added media scanner mod in Settings/Developer options\n
 - Switched to Mike's latest AOSP kernel (prebuilt)\n
-- Restart SystemUI when enabling Auto Hide statusbar\n
-\n
-\n
-v2.0\n
-- Added Hybrid Engine\n
+- Restart SystemUI when enabling Auto Hide statusbar"/>
+    <ver id="2.0" Change=" - Added Hybrid Engine\n
 - Added Permissions management\n
 - Added StayAwake Toggle\n
 - Added .75x animation scale\n
 - Added update tab in About DU\n
 - Rearranged Settings tabs and changed icons\n
 - Removed LCD Density and Xposed stuff\n
-- Removed ModeUI out of ROMControl\n
-\n
-\n
-v2.1\n
-- Added StayAwake, Expanded Desktop and WirelessADB toggles\n
+- Removed ModeUI out of ROMControl"/>
+    <ver id="2.1" Change=" - Added StayAwake, Expanded Desktop and WirelessADB toggles\n
 - Fixed annoying ringtone bug\n
 - List rejected calls separately\n
 - Added Speedometer battery\n
 - Added more Statusbar clock options\n
-- Added App Sidebar from ChaOS\n
-\n
-\n
-v2.2\n
-- Fixed SystemUI FC's\n
+- Added App Sidebar from ChaOS"/>
+    <ver id="2.2" Change=" - Fixed SystemUI FC's\n
 - Fixed PIE alignment issue\n
 - Fixed tablet UI battery issues\n
 - Fixed profiles power menu bug\n
@@ -266,76 +217,5 @@ v2.2\n
 - Added 8 lockscreen targets\n
 - Added Moar clock options\n
 - Added Jackpal Terminal / CM sound recorder\n
-- Updated Dark and Dirty\n
-\n
-\n"/>
-
-    <ver id="EVO 4G LTE" Change=" - Initial Release"/>
-
-    <ver id="GNEX (maguro)" Change=" - Initial Release"/>
-
-    <ver id="GNEX (toro)" Change=" - Initial Release"/>
-
-    <ver id="GNEX (toroplus)" Change=" - Initial Release"/>
-
-    <ver id="Nexus 4" Change=" - Initial Release\n
-\n
-\n
-v1.1.0\n
-- SystemUI: fix recents minimization animation\n
-- Added HDPI images for Dark/Dirty and updated some other images\n
-- Status bar Auto-Hide\n
-- Quick Settings: Swipe to switch\n
-- Fixed Dark and Dirty will no longer restart UI\n
-- Quick Emoji working with dark and dirty turned on\n
-\n
-\n
-v1.1.1\n
-- Hide GooManager from app drawer\n
-- Add Check for updates to about DU\n
-\n
-\n
-v2.0\n
-- Added Hybrid Engine\n
-- Added Permissions management\n
-- Added StayAwake Toggle\n
-- Added .75x animation scale\n
-- Rearranged Settings tabs and changed icons\n
-- Removed LCD Density and Xposed stuff\n
-\n
-\n
-v2.2\n
-- Added StayAwake, Expanded Desktop and WirelessADB toggles\n
-- Fixed annoying ringtone bug\n
-- List rejected calls separately\n
-- Added Speedometer battery\n
-- Added more Statusbar clock options\n
-- Added App Sidebar from ChaOS\n
-- Fixed SystemUI FC's\n
-- Fixed PIE alignment issue\n
-- Fixed tablet UI battery issues\n
-- Fixed profiles power menu bug\n
-- Fixed issue with not being able to add APN's\n
-- Removed conflicting mods, will add once issues are fixed\n
-- Removed themed system icons\n
-- Added Google's new drawer UI to multiple system apps\n
-- Added AOKP Ribbons\n
-- Added power off on lockscreen mod\n
-- Added ChaOS Launcher (removed Holo Launcher HD)\n
-- Added new Theme Engine (BAMF)\n
-- Added back Navigation Ring\n
-- Added Lockscreen tint color mod\n
-- Added 8 lockscreen targets\n
-- Added Moar clock options\n
-- Added Jackpal Terminal / CM sound recorder\n
-- Updated Dark and Dirty \n
-\n
-\n
-"/>
-
-    <ver id="HTC One" Change=" - Initial Release"/>
-
-    <ver id="Note II (Sprint)" Change=" - Initial Release"/>
-
-    <ver id="Droid Razr" Change=" - Initial Release"/>
+- Updated Dark and Dirty"/>
 </Versions>
