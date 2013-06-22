@@ -39,4 +39,12 @@
 - Added Moar clock options\n
 - Added Jackpal Terminal / CM sound recorder\n
 - Updated Dark and Dirty"/>
+    <ver id="3.0" Change="- Added per device per version logic (changelog)\n
+- Added Solid Color Picker to DirtPapers\n
+- Added in PA Halo app to pin apps\n
+- Merged in latest updates to DashClock\n
+- Added Paranoidandroid's hybrid engine\n
+- Added Per-App-Color from PA as well\n
+- Some PIE updates\n
+- Removed all features conflicting with hybrid engine/PAC\n"/>
 </Versions>
