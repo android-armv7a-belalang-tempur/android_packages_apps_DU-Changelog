@@ -18,4 +18,6 @@
     <Device id="Note II (Sprint)" CodeName="l900"/>
 
     <Device id="Droid Razr" CodeName="spyder"/>
+   
+    <Device id="Galaxy S3 (Cricket)" CodeName="d2cri"/>
 </Versions>
