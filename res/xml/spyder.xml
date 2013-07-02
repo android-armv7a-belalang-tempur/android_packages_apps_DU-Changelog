@@ -1,4 +1,34 @@
 <!--?xml version="1.0" encoding="utf-8"?-->
 <Versions>
     <ver id="1.0" Change=" - Initial Release"/>
+    <ver id="1.0" Change=" - Added Solid Color Picker to DirtPapers\n
+- Added in PA Halo app to pin apps\n
+- Merged in latest updates to DashClock\n
+- Added Paranoidandroid's hybrid engine\n
+- Added Per-App-Color from PA as well\n
+- Some PIE updates\n
+- Removed all features conflicting with hybrid engine/PAC\n"/>
+    <ver id="2.1" Change=" - Fixed DPI issue\n"/>
+    <ver id="3.5" Change=" - Added Halo toggle / Music Toggle\n
+- Added Net speed mod in statusbar\n
+- Added DU Stats\n
+- Added Improve Recents / ROM Control options\n
+- Added Team Baked tile color mod\n
+- Added More batteries\n
+- Added PAC support for all batteries\n
+- Added CM sound panel\n
+- Added SunBeam LWP\n
+- Added GPS indicator to camera / HDR video support\n
+- Added Gesture based lockscreen mod\n
+- Added CM privacy guard support\n
+- Added Toggle dots/error pattern mod\n
+- Removed redundant sound panel feature in RC\n
+- Fixed MMS issue with Dark and Dirty\n
+- Fixed halo button animations\n
+- Fixed Phablet issue on some XHDPI devices\n
+- Fixed up Ribbons icon\n
+- Switched to Gravatar for support avatars\n
+- Switch default font to Roboto Light\n
+- Halo color improvements\n
+- Show as floating window on recent apps\n"/>
 </Versions>
