@@ -20,4 +20,6 @@
     <Device id="Droid Razr" CodeName="spyder"/>
    
     <Device id="Galaxy S3 (Cricket)" CodeName="d2cri"/>
+
+    <Device id="Nexus 10" CodeName="manta"/>
 </Versions>
