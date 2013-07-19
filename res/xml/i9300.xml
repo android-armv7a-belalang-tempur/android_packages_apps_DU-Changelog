@@ -1,0 +1,33 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<Versions>
+    <ver id="1.0" Change=" - Initial Release"/>
+    <ver id="3.6" Change=" - Fixed Torch systenUI Fc\n
+- Fixed Torch issue with hardware keys\n
+- Fixed DUstats for i9300\n
+- Added 'About'\n
+- Mapped About to Dirt Settings\n
+- Deleted Aokp torch, now using Cm Torch\n
+- Updated ChaosLauncher\n
+- Remove Dirt Papers, added new wallpaper app\n
+- Added Dirt Settings toggle\n
+- Updated Halo style and functions\n
+- Halo: added vertival gestures\n
+- Halo: now works with tablet UI\n
+- Halo: make a trusted overlay\n 
+- Added Halo size\n
+- Changed developer popup\n
+- Added SlimBeans color picker\n
+- Updated settings logo\n
+- Show application's package name in the AppInfo screen.\n
+- Halo: Avoid showing Halo))) icons in status bar while added to Halo\n
+- Halo: Don't show pinned Halo))) apps on PIE (hide count, icons and text)\n
+- Halo: show halo button in pie\n
+- Halo: keep apps in recents\n
+- Pie now using per app color\n
+- PrivacyGuard: New icons close to AOSP style\n
+- Changed some defaults\n
+- Themes: changed the look a bit\n
+- Merged in latest updates to DashClock\n
+- Some minor changes.."/>
+
+</Versions>
