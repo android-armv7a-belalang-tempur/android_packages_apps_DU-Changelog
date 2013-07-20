@@ -23,5 +23,6 @@
 
     <Device id="Nexus 10" CodeName="manta"/>
 
-	<Device id="Galaxy S3 (Intl)" Codename="i9300"/>
+    <Device id="Galaxy S3 (Intl)" Codename="i9300"/>
+
 </Versions>
