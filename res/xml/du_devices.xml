@@ -5,6 +5,8 @@
 
     <Device id="EVO 4G LTE" CodeName="jewel"/>
 
+    <Device id="Droid Razr" CodeName="spyder"/>
+
     <Device id="GNEX (maguro)" CodeName="maguro"/>
 
     <Device id="GNEX (toro)" CodeName="toro"/>
@@ -13,16 +15,14 @@
 
     <Device id="Nexus 4" CodeName="mako"/>
 
-    <Device id="HTC One" CodeName="m7"/>
+    <Device id="Nexus 10" CodeName="manta"/>
+
+    <Device id="Galaxy S3 (Cricket)" CodeName="d2cri"/>
+
+    <Device id="Galaxy S3 (Intl)" Codename="i9300"/>
 
     <Device id="Note II (Sprint)" CodeName="l900"/>
 
-    <Device id="Droid Razr" CodeName="spyder"/>
-   
-    <Device id="Galaxy S3 (Cricket)" CodeName="d2cri"/>
-
-    <Device id="Nexus 10" CodeName="manta"/>
-
-    <Device id="Galaxy S3 (Intl)" Codename="i9300"/>
+    <Device id="HTC One" CodeName="m7"/>
 
 </Versions>

@@ -1,4 +1,31 @@
 <!--?xml version="1.0" encoding="utf-8"?-->
 <Versions>
     <ver id="1.0" Change=" - Initial Release"/>
+    <ver id="3.6" Change=" - Removed Dirt Papers / Added new wallpaper app\n
+- Added About app / Mapped to Dirt Settings\n
+- Removed redundant stuff related to About app\n
+- Added External GPS Support from CM\n
+- Show application's package name in the App info screen\n
+- Switched Color pickers (SlimROMs)\n
+- Set certain toggles/settings as default\n
+- Fixed Overflow bug / Moved to RC from Settings\n
+- Added Halo Size\n
+- Added Dirt Settings Tile/Toggle\n
+- Added PAC (per app color) to PIE\n
+- Removed PIE colors since is PAC supported now\n
+- Added Custom view for hybrid toggle\n
+- Added SMS Middleware layer\n
+- Updated SystemUI's proguard.flags\n
+- Added a delimiter between scheme and host\n 
+- Merged Halo improvements from PA\n
+- Prompt users Mms can't receive msgs if storage is full\n
+- Allow contact via SMS on number longpress in conversation\n
+- Maded UI improvements to DSPManager\n
+- Maded UI improvements to Theme Chooser\n
+- Maded UI improvements to DU Stats\n
+- Merged CM updates for CM apps\n
+- Added Traffic indicator support for PAC, fixed MB/KB issue\n
+- Added Halo support for tablet UI\n
+- Added QuietHours Shortcuts\n
+- Added Hot Reboot option to power menu"/>
 </Versions>
