@@ -1,28 +1,26 @@
 <!--?xml version="1.0" encoding="utf-8"?-->
 <Versions>
 
-    <Device id="EVO 3D (CDMA)" CodeName="shooter"/>
+    <Device id="EVO 3D (shooter)" CodeName="shooter"/>
 
-    <Device id="EVO 4G LTE" CodeName="jewel"/>
+    <Device id="EVO 4G LTE (jewel)" CodeName="jewel"/>
 
-    <Device id="Droid Razr" CodeName="spyder"/>
+    <Device id="Galaxy Nexus (maguro)" CodeName="maguro"/>
 
-    <Device id="GNEX (maguro)" CodeName="maguro"/>
+    <Device id="Galaxy Nexus (toro)" CodeName="toro"/>
 
-    <Device id="GNEX (toro)" CodeName="toro"/>
+    <Device id="Galaxy Nexus (toroplus)" CodeName="toroplus"/>
 
-    <Device id="GNEX (toroplus)" CodeName="toroplus"/>
+    <Device id="Nexus 4 (mako)" CodeName="mako"/>
 
-    <Device id="Nexus 4" CodeName="mako"/>
+    <Device id="Nexus 10 (manta)" CodeName="manta"/>
 
-    <Device id="Nexus 10" CodeName="manta"/>
+    <Device id="Galaxy S3 (d2cri)" CodeName="d2cri"/>
 
-    <Device id="Galaxy S3 (Cricket)" CodeName="d2cri"/>
+    <Device id="Galaxy S3 (i9300)" Codename="i9300"/>
 
-    <Device id="Galaxy S3 (Intl)" Codename="i9300"/>
+    <Device id="Note II (l900)" CodeName="l900"/>
 
-    <Device id="Note II (Sprint)" CodeName="l900"/>
-
-    <Device id="HTC One" CodeName="m7"/>
+    <Device id="HTC One (m7)" CodeName="m7"/>
 
 </Versions>
