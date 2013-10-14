@@ -23,4 +23,10 @@
 
     <Device id="HTC One (m7)" CodeName="m7"/>
 
+    <Device id="Sprint HTC One (m7spr)" CodeName="m7spr"/>
+
+    <Device id="Galaxy s blaze 4G (t769)" CodeName="t769"/>
+
+    <Device id="Epic 4G Touch (d710)" CodeName="d710"/>
+
 </Versions>
