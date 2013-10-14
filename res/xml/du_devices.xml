@@ -29,5 +29,5 @@
 
     <Device id="Epic 4G Touch (d710)" CodeName="d710"/>
     
-    <Device id="Galaxy S2 Tmobile (hercules)" CodeName="Hercules"/>
+    <Device id="Galaxy S2 Tmobile (hercules)" CodeName="hercules"/>
 </Versions>
