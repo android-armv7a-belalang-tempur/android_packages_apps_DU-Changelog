@@ -1,5 +1,24 @@
 <!--?xml version="1.0" encoding="utf-8"?-->
 <Versions>
-    <ver id="1.0" Change=" - Not yet released"/>
+    <ver id="3.8" Change=" - Initial Release"/>
+    <ver id="3.9" Change=" - Merged latest AOSP commits\n
+- Fixed APN editing\n
+- Fixed clock AM/PM error\n
+- Fixed network stats upload/download reading\n
+- Torch app UI overhaul and code cleanup\n
+- Moved See through lockscreen mod from UI to Lockscreens\n
+- Added Better Recents and ability to switch\n
+- Added Shortcut bar in Recents\n
+- Added never sleep screen mode\n
+- Added PA PIE\n
+- Added Power button in PIE\n
+- Added PIE Toggle and Volume Toggle\n
+- Added user defined colors for LockClock\n
+- Added CM SoundRecorder\n
+- Added Download GAPPS Option in DU Updater\n
+- Added Color Changer to network stats\n
+- Remove welcome message in CMFileManager\n
+- Removed SunBeam and Added PhaseBeam with Color Changer\n
+- Check our github for device specific changes"/>
 </Versions>
 
