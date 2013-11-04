@@ -27,8 +27,6 @@
 
     <Device id="Galaxy S3 (d2usc)" CodeName="d2usc"/>
 
-    <Device id="Galaxy S3 (i9300)" Codename="i9300"/>
-
     <Device id="Note II (l900)" CodeName="l900"/>
 
     <Device id="HTC One (m7)" CodeName="m7"/>
