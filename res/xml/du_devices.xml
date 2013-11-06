@@ -16,6 +16,8 @@
     <Device id="Nexus 7 (grouper)" CodeName="grouper"/>
 
     <Device id="Nexus 10 (manta)" CodeName="manta"/>
+  
+    <Device id="Galaxy S3 (i9300)" CodeName="i9300"/>
 
     <Device id="Galaxy S3 (d2att)" CodeName="d2att"/>
 

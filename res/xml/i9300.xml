@@ -1,0 +1,50 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<Versions>
+    <ver id="3.8" Change=" - Initial Release"/>
+    <ver id="3.9" Change=" - Merged latest AOSP commits\n
+- Fixed APN editing\n
+- Fixed clock AM/PM error\n
+- Fixed network stats upload/download reading\n
+- Torch app UI overhaul and code cleanup\n
+- Moved See through lockscreen mod from UI to Lockscreens\n
+- Added Better Recents and ability to switch\n
+- Added Shortcut bar in Recents\n
+- Added never sleep screen mode\n
+- Added PA PIE\n
+- Added Power button in PIE\n
+- Added PIE Toggle and Volume Toggle\n
+- Added user defined colors for LockClock\n
+- Added CM SoundRecorder\n
+- Added Download GAPPS Option in DU Updater\n
+- Added Color Changer to network stats\n
+- Remove welcome message in CMFileManager\n
+- Removed SunBeam and Added PhaseBeam with Color Changer\n
+- Check our github for device specific changes"/>
+     <ver id="4.0" Change=" - ChaOS Gesture anywhere\n
+- New notification Weather icons (Touchflo HD icons)\n
+- CM Privacy Guard\n
+- Button Light Notification (only few devices)\n
+- Camera button support\n
+- Implement a pin keypad shuffler\n
+- Lower the RAM requirement for HWA\n
+- Status bar Auto-Hide / Quick Peek\n
+- Hybrid engine from BeerBong\n
+- Add switch to hide signal/wifi bars\n
+- Fixed PIE GRAVITY receiver\n
+- Fixed default navigation bar transparency value\n
+- Lockscreen Theme Color\n
+- Omni-ROM Multi-window\n
+- Video HDR Feature Integration\n
+- Added pause interface (camcorder)\n
+- Various Camera fixes\n
+- Squashed BT commits from CM\n
+- Added net stats to system bar (tabletUI)\n
+- Xposed persistance support\n
+- Removed LCD Density / UI mode (RC)\n
+- Add MVNO field for APN Editor\n
+- Fixed bug where user could not uninstall launchers\n
+- Fixed SmsCallService Wakelock\n
+- Improve app op details layout / Make app ops more usable\n
+\n
+- Check github / gerrit for a more complete changelog"/>
+</Versions>
