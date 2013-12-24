@@ -1,8 +1,6 @@
 <!--?xml version="1.0" encoding="utf-8"?-->
 <Versions>
 
-    <Device id="EVO 3D (shooter)" CodeName="shooter"/>
-
     <Device id="EVO 4G LTE (jewel)" CodeName="jewel"/>
 
     <Device id="Galaxy Nexus (maguro)" CodeName="maguro"/>
@@ -35,7 +33,7 @@
 
     <Device id="Sprint HTC One (m7spr)" CodeName="m7spr"/>
 
-    <Device id="Galaxy s blaze 4G (t769)" CodeName="t769"/>
+    <Device id="Galaxy S blaze 4G (t769)" CodeName="t769"/>
 
     <Device id="Epic 4G Touch (d710)" CodeName="d710"/>
     
