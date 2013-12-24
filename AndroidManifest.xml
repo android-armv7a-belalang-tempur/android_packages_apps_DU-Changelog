@@ -6,8 +6,8 @@
     android:versionName="1.1" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="16" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
     <supports-screens android:anyDensity="true" android:xlargeScreens="true" android:largeScreens="true" android:normalScreens="true"/>
     <application
         android:allowBackup="true"
