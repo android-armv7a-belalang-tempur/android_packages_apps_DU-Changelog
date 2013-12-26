@@ -26,13 +26,13 @@ public class ListVersions extends ListActivity{
     protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
     	System.out.println("Started ListVers without proper variables");
-        
+
         savedInstanceState = getIntent().getExtras();
         if(savedInstanceState != null)
         {
             DeviceId = savedInstanceState.getString("deviceID");
             DeviceName = savedInstanceState.getString("deviceName");
-            
+
             System.out.println("Started ListVers with proper variables");
         }
         setTitle("Changelog for " + DeviceName);
@@ -96,7 +96,7 @@ public class ListVersions extends ListActivity{
         VerList = verList.toArray(VerList);
         return VerList;
         }
-        
+
         public int getResId(String deviceName, Class<?> c)
         {
         	try
@@ -113,7 +113,7 @@ public class ListVersions extends ListActivity{
         public String GetChanges(String ChangeId, int ResId) throws XmlPullParserException, IOException {
             String VerList = null;
             res = getResources();
-            
+
             XmlResourceParser xpp = res.getXml(ResId);
             xpp.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES,true);
             int eventType = xpp.getEventType();

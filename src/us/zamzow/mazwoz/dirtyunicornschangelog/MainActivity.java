@@ -90,7 +90,7 @@ public class MainActivity extends ListActivity {
         public String GetDeviceID(String DeviceID) throws XmlPullParserException, IOException {
             String VerList = null;
             res = getResources();
-            
+
             XmlResourceParser xpp = res.getXml(R.xml.du_devices);
             xpp.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES,true);
             int eventType = xpp.getEventType();
