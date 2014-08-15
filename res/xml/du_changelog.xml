@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Versions>
+
+    <ver id="Version 7.5" Change=" - Update to 4.4.3_r1.1\n
+- Enabled appointment details in Calendar\n
+- Kernel Tweaker Removed\n
+- Halo Color\n
+- New HALO drawables for KK\n
+- ART fixed (Thanks Google!)\n
+- Show Seconds next to StatusBar Clock\n
+- Add Speakerphone Glowpad Target\n
+- Icon pack support\n
+- Add custom hotword detection\n
+- Fixes and improvements to OmniSwitch\n
+- Added JB-like battery icon\n
+- Fix volume rocker to skip tracks\n
+- New Ad blocker\n
+- Implement App circle sidebar\n
+- Multi-Floating windows\n
+- Implement SIM card management\n
+- Add support pause/resume/stop notifications\n
+"/>
+
+    <ver id="Version 7.6" Change=" - Update to Android 4.4.4\n
+- Added few toggles/tiles\n
+- Change QS Fliptile animation\n
+- Pattern size upgrade for pattern lockscreen\n
+- Added Option to reset battery stats\n
+- Fixed Italian camera derp\n
+- Updated SuperSU to v2.00\n
+- Many under the hood changes\n
+"/>
+
+    <ver id="Version 7.7" Change=" - Updated the ASCII art for flashing\n
+- Added Theme chooser\n
+- Added Heads up\n
+- Added Ability to disable immersive messages\n
+- Added Blacklist/configurable timeout for heads up\n
+- Added New sound recorder\n
+- Changed Roboto Fonts to match Android L\n
+- Updated SuperSU to v2.01\n
+"/>
+
+    <ver id="Version 7.8" Change=" - Update to android-4.4.4_r2\n
+- Added New Bootanimation\n
+- Added Left handed navbar during landscape mode\n
+- Added CPUFreq Tile\n
+- Fixed hot reboot\n
+- Added fake Id vulnerability fix\n
+- Allow changing theme to Holo.Light without crashing\n
+- Themes: Make notification list bg themeable\n
+- Move LCD density from build.prop to it's own category\n
+- Fixed holo dark background\n
+- DU about app: Maintainer/Devs and General Cleanup\n
+- Moar Double tap to sleep options\n
+- Added Back to kill app mod\n
+- Fixed crash when set .gif as wallpaper\n
+- Fixed themes not sticking on reboot if using Xposed framework\n
+- Added EOS Weather panel\n
+- Fixed SwiftKey disappearing issue\n
+- Fixed QS layout for camera tile\n
+"/>
+
+</Versions>

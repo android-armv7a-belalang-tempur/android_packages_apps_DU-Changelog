@@ -12,4 +12,3 @@ LOCAL_PATH:= $(call my-dir)
 #LOCAL_PACKAGE_NAME := DU_changelog
 #
 #include $(BUILD_PACKAGE)
-

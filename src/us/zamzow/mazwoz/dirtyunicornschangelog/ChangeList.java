@@ -1,15 +1,14 @@
 package us.zamzow.mazwoz.dirtyunicornschangelog;
 
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
-import java.lang.String;
-import android.app.Activity;
 
 /**
  * Created by mazwoz on 6/8/13.
  */
-public class ChangeList extends Activity {
+public class ChangeList extends FragmentActivity {
     public String VerChanges = null;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

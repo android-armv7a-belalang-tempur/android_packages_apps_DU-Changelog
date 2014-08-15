@@ -26,7 +26,7 @@ public class MainActivity extends ListActivity {
         XmlParser xmp = new XmlParser();
         try
         {
-            VERS = xmp.GetDevs();
+            VERS = xmp.GetVers();
         }
         catch (IOException e) {Toast.makeText(this,e.getMessage(),Toast.LENGTH_LONG).show();}
         catch (XmlPullParserException e){Toast.makeText(this,e.getMessage(),Toast.LENGTH_LONG).show();}
@@ -42,13 +42,10 @@ public class MainActivity extends ListActivity {
                 XmlParser xmp = new XmlParser();
                 try
                 {
-                    String changes = xmp.GetDeviceID(((TextView) view).getText().toString());
-                    Intent intnet = new Intent(getBaseContext(), ListVersions.class);
-                    System.out.println("Starting ListVers with " + changes + " " + ((TextView)view).getText());
-                    intnet.putExtra("deviceID",changes);
-                    System.out.println("Sent Device ID: " + changes);
-                    intnet.putExtra("deviceName", ((TextView)view).getText());
-                    System.out.println("Sent Title " + ((TextView)view).getText());
+                    String changes = xmp.GetChanges(((TextView) view).getText().toString());
+                    Intent intnet = new Intent(getBaseContext(), ChangeList.class);
+                    intnet.putExtra("changes",changes);
+                    intnet.putExtra("title", ((TextView)view).getText());
                     startActivity(intnet);
                 }
                 catch (IOException e) {Toast.makeText(getApplicationContext(),e.getMessage(),Toast.LENGTH_LONG).show();}
@@ -59,16 +56,15 @@ public class MainActivity extends ListActivity {
 
     public class XmlParser {
         private Resources res;
-        @SuppressWarnings("unused")
-		private int x = 0;
+        private int x = 0;
 
 
         public XmlParser(){};
-        public String[] GetDevs() throws XmlPullParserException, IOException {
+        public String[] GetVers() throws XmlPullParserException, IOException {
         String[] VerList = null;
         List<String> verList = new ArrayList<String>();
         res = getResources();
-        XmlResourceParser xpp = res.getXml(R.xml.du_devices);
+        XmlResourceParser xpp = res.getXml(R.xml.du_changelog);
             xpp.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES,true);
             int eventType = xpp.getEventType();
             while (eventType != XmlPullParser.END_DOCUMENT) {
@@ -87,22 +83,22 @@ public class MainActivity extends ListActivity {
         return VerList;
         }
 
-        public String GetDeviceID(String DeviceID) throws XmlPullParserException, IOException {
+        public String GetChanges(String ChangeID) throws XmlPullParserException, IOException {
             String VerList = null;
             res = getResources();
-
-            XmlResourceParser xpp = res.getXml(R.xml.du_devices);
+            XmlResourceParser xpp = res.getXml(R.xml.du_changelog);
             xpp.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES,true);
             int eventType = xpp.getEventType();
             while (eventType != XmlPullParser.END_DOCUMENT) {
 
                 if(eventType == XmlPullParser.START_TAG) {
 
+
                     if(xpp.getIdAttribute() != null)
                     {
-                        if(xpp.getIdAttribute().equals(DeviceID))
+                        if(xpp.getIdAttribute().equals(ChangeID))
                         {
-                            System.out.println("ID ATTRIBUTE = " + xpp.getIdAttribute() + "   Device ID = " + xpp.getAttributeValue(1));
+                            System.out.println("ID ATTRIBUTE = " + xpp.getIdAttribute() + "   CHANGE ID = " + ChangeID);
                             VerList = xpp.getAttributeValue(1);
                         }
                     }
