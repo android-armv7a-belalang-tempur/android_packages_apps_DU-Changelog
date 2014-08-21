@@ -61,4 +61,32 @@
 - Fixed QS layout for camera tile\n
 "/>
 
+    <ver id="Version 7.9" Change=" - MIUI Style carrier text in the statusbar\n
+- Bring Slim Recents up-to-date with SlimROM\n
+- Show notification when charging\n
+- Modify Location Tile\n
+- Filter spam notifications\n
+- Theme chooser fixes\n
+- Toggle boot audio on and off\n
+- Add ability to play audio to Boot Animation\n
+- New shutdown animation and busy dialog\n
+- Option to disable heads up in lockscreen\n
+- 6-bar signal icon style\n
+- Overscroll effects\n
+- Add moar Gapps to the Download Center\n
+- Camera2: Make navigation bar and status bar transparent\n
+- User defined wifi/usb tether network\n
+- Option to always show heads up in expanded mode\n
+- Toggle nav bar through power menu\n
+- Add hardware tunables for some devices\n
+- Show plugged type (AC / USB) on QS battery tile\n
+- Option to always show heads up in expanded mode\n
+- Option to disable heads up in lockscreen\n
+- G+ system ui f/c fix\n
+- DU Neon Clock\n
+- Move Dark UI into themes\n
+- Add option for setting device phone number\n
+- Removed redundant features from tablets\n
+"/>
+
 </Versions>
