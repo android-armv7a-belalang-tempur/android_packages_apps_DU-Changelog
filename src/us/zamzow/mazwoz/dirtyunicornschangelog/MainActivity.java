@@ -1,5 +1,12 @@
 package us.zamzow.mazwoz.dirtyunicornschangelog;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.net.Uri;
+import android.widget.AdapterView.OnItemClickListener;
+import android.preference.Preference.OnPreferenceClickListener;
+
 import android.app.ListActivity;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -23,6 +30,7 @@ public class MainActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+
         XmlParser xmp = new XmlParser();
         try
         {
@@ -50,6 +58,28 @@ public class MainActivity extends ListActivity {
                 }
                 catch (IOException e) {Toast.makeText(getApplicationContext(),e.getMessage(),Toast.LENGTH_LONG).show();}
                 catch (XmlPullParserException e){Toast.makeText(getApplicationContext(),e.getMessage(),Toast.LENGTH_LONG).show();}
+
+                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+
+                builder.setMessage(R.string.du_message)
+                       .setTitle(R.string.du_message_title)
+                       .setIcon(R.drawable.ic_settings_theme)
+                       .setPositiveButton(R.string.du_download, new DialogInterface.OnClickListener() {
+                           public void onClick(DialogInterface dialog, int id) {
+                                   String url = "http://download.dirtyunicorns.com/";
+                                   Intent i = new Intent(Intent.ACTION_VIEW);
+                                   i.setData(Uri.parse(url));
+                                   startActivity(i);
+                           }
+                       })
+                       .setNegativeButton(R.string.du_ok, new DialogInterface.OnClickListener() {
+                           public void onClick(DialogInterface dialog, int id) {
+                                   dialog.dismiss();
+                           }
+                       });
+
+                AlertDialog du_dialog = builder.create();
+                du_dialog.show();
             }
         });
     }
