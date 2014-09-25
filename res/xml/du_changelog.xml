@@ -87,4 +87,29 @@
 - Removed redundant features from tablets\n
 "/>
 
+<ver id="Version 8.0" Change=" - Camera: exposure time support\n
+- PIE from ParanoidAndroid added\n
+- PIE color settings\n
+- More PIE targets\n
+- NavBar keyboard arrows toggle\n
+- WiFi power menu\n
+- Calendar enhancements and fixes\n
+- Dirty Tweaks tile\n
+- Added Power Menu / Quick Settings button in pulldown\n
+- Theme engine improvements and fixes\n
+- Add moar default tiles/toggles\n
+- Quiet Hours up to date with slim rom\n
+- Gallery enhancements and fixes\n
+- Show Heads Up on Bottom\n
+- Carrier logo statusbar option\n
+- Complete translations for five languages added\n
+- Rebase to cleaner looking traffic indicator\n
+- Remove blur lockscreen\n
+- More DU wallpapers added\n
+- Heads Up background color/transparency\n
+- Vibration options\n
+- Keyguard: Bring back fast unlock\n
+- Custom Tile\n
+"/>
+
 </Versions>
