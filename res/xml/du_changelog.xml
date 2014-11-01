@@ -122,4 +122,19 @@
 - Call Recording format selection\n
 "/>
 
+<ver id="Version 8.2" Change=" - Disable/Enable screenshot sound\n
+-Navbar:Custom Glow Time\n
+-SystemUI:Fix crash during notification/theme change\n
+-Bring back color changer for MIUI-like carrier label\n
+-Fix carrier label not sticking after a reboot\n
+-Fixed clear-all button Bug\n
+-Fix auto rotation/battery tile long press\n
+-Double tap to sleep on navigation bar\n
+-Add Voice Dialer back\n
+-Support full size application screenshots\n
+-Fix bootanimation cut off on HDPI devices\n
+-NavRing:Last App\n
+-Fix longpress app circlebar QS tile\n
+"/>
+
 </Versions>
