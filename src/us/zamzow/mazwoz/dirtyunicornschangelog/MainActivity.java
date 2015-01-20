@@ -35,10 +35,9 @@ public class MainActivity extends ListActivity {
 
         builder.setMessage(R.string.du_message)
                .setTitle(R.string.du_message_title)
-               .setIcon(R.drawable.ic_settings_theme)
                .setPositiveButton(R.string.du_download, new DialogInterface.OnClickListener() {
                    public void onClick(DialogInterface dialog, int id) {
-                           String url = "http://download.dirtyunicorns.com/";
+                           String url = "https://plus.google.com/u/0/communities/109738128866939227235";
                            Intent i = new Intent(Intent.ACTION_VIEW);
                            i.setData(Uri.parse(url));
                            startActivity(i);
